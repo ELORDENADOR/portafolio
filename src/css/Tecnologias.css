@@ -1,0 +1,69 @@
+#tituloTecnologia{
+    padding-top: 0px;   
+    padding-bottom: 50px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 60px;
+    text-shadow: 0 0 5px rgb(47, 0, 255), 0 0 15px rgb(63, 60, 236), 0 0 30px rgb(50, 50, 205), 0 0 50px rgb(34, 0, 255);
+    color: white; 
+}
+
+
+.contenedorLogosConocimientos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;   
+    color: black;
+}
+
+.caracteristicasLogo{
+    font-size: 80px;
+    padding: 10px;          
+}
+
+
+.caracteristicasLogo:hover{
+   
+    color:rgb(34, 0, 255)
+}
+
+
+.nombreTecnologia{    
+    text-align: center;
+    padding-top: 40px;      
+    font-size: 25px;
+    text-shadow: 0 0 15px rgb(247, 245, 245), 0 0 15px rgb(246, 244, 244),0 0 15px rgb(244, 244, 244), 0 0 15px rgb(248, 246, 246);
+    color: white;
+    font-weight: bold;
+}
+
+
+
+@media(max-width: 500px){  
+    .nombreTecnologia{      
+        left: 30%;
+           }
+   }
+
+
+
+@media(max-width: 350px){
+    .caracteristicasLogo{
+        font-size: 60px;
+        padding: 10px;          
+    }
+
+    .nombreTecnologia{      
+        left: 10%;
+       
+    }
+
+
+   }
+
+
+@media(max-width: 300px){
+    #tituloTecnologia{   
+      font-size: 40px;   
+    }
+   }

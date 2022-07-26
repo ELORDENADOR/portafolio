@@ -1,0 +1,451 @@
+#contenedorPrincipalJuegoPPT{
+text-align: center;
+background-color: #444;
+/* margin-top: 40px; */
+margin-left: 50px;
+margin-right: 50px;
+/* padding-bottom: 10px; */
+}
+
+#contenedorJuego{
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+#contenedorJuego{
+	display: grid;
+	grid-template-areas: 
+	"sec1   sec5  sec5   sec5" 
+	"sec2   sec6  sec9   sec10" 
+	"sec3   sec7  sec7   sec7"
+    "sec4   sec8  sec8   sec8";    
+
+	grid-template-rows: 105px 150px 105px 100px;
+	grid-auto-columns:  20%  1fr 1fr 1fr;     
+	grid-gap: 5px;
+	height: 100vh;   
+	margin-top: 30px;   
+}
+
+#sec1{
+	grid-area: sec1;
+	background: rgb(47, 93, 103); 
+
+	background-image: url("../img/puntajeCompu.png");   
+    height: 100%;   
+    background-size: cover;	
+}
+
+#sec2{	
+    grid-area: sec2;
+	background: rgb(47, 93, 103);
+
+	background-image: url("../img/lugarPersonajes.png");  
+    height: 100%;   
+    background-size: cover;
+
+
+}
+
+#sec3{
+	background: rgb(47, 93, 103);
+    grid-area: sec3;
+	
+	background-image: url("../img/puntajeJugador.png");   
+    height: 100%;   
+    background-size: cover;
+}
+
+#sec4{
+	background: rgb(47, 93, 103);
+grid-area: sec4;
+
+background-image: url("../img/lugarBotonesJugarLimpiar.png");   
+    height: 100%;   
+    background-size: cover;
+
+}
+
+#sec5{
+	background: rgb(47, 93, 103);  
+grid-area: sec5;
+background-image: url("../img/lugarCompu.png");   
+    height: 100%;   
+    background-size: cover;
+}
+
+#sec6{
+	background: rgb(47, 93, 103); 
+grid-area: sec6;
+background-image: url("../img/ring1.png");   
+    height: 100%;   
+    background-size: cover;
+}
+
+#sec7{
+	background: rgb(47, 93, 103);  
+grid-area: sec7;
+background-image: url("../img/lugarJugador.png");   
+    height: 100%;   
+    background-size: cover;
+}
+
+#sec8{
+	background: rgb(47, 93, 103);
+grid-area: sec8;
+background-image: url("../img/tableroPrincipal.png");   
+    height: 100%;   
+    background-size: cover;
+}
+
+
+#sec9{
+	background: rgb(47, 93, 103);
+grid-area: sec9;
+background-image: url("../img/ring2.png");   
+    height: 100%;   
+    background-size: cover;
+}
+#sec10{
+	background: rgb(47, 93, 103); 
+grid-area: sec10;
+
+
+background-image: url("../img/ring3.png");   
+    height: 100%;   
+    background-size: cover;
+
+}
+
+
+                                /* COMFIGURAR TAMAÑO IMAGENES DE LOS JUGADORES */
+
+.imagen{
+    width: 60px;
+    border: 2px solid black;
+}
+       
+.configuracionImagenRing{
+	width: 100px;
+	height: 80px;	
+	border-radius: 50%;
+}
+
+.formaOpcion{
+	border-radius: 20%;
+	width: 100px;
+	height: 80px;
+	/* margin-top: 8px; */
+}
+
+
+.configurarImgControlJugador{
+width: 50px;
+}
+
+
+.botonControlJugador{
+	margin: 5px;
+}
+
+
+
+.configuracionImgRing{
+	display:  flex;
+	justify-content: space-around;
+	margin-top: 30px;
+}
+
+
+
+
+#contenedorImagenes{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+                                  /* IMAGENES DE LOS JUGADORES */
+
+
+.bloqueada{
+	filter: grayscale(100%);
+}
+
+.imagen1{
+margin: 5px;
+}
+
+.imagen2{
+margin: 5px;
+}
+
+.imagen3{
+margin: 5px;
+}
+
+.imagen4{
+margin: 5px;
+}
+
+.imagen5{
+margin: 5px;
+}
+
+.imagen6{
+margin: 5px;
+}
+
+
+/* RESPONSIVE  GRID JUEGO */
+
+
+
+	
+/* //////////////  1 */
+
+/* @media (max-width: 1250px) {
+	
+
+	#contenedorJuego{
+		display: grid;
+		grid-template-areas: 
+
+		"sec1 sec3"		
+		"sec7 sec10"
+		"sec5 sec6"
+		"sec9 sec4"
+		"sec2 sec8";    
+	
+		grid-template-rows: 90px 95px 95px 95px 100px;
+		grid-auto-columns:  40% 1fr;     
+		grid-gap: 5px;
+		height: 100vh;   
+		margin: 10px;    
+	}
+
+	.configuracionImgRing{		
+		margin-top: 8px;
+	}	
+
+  } */
+
+/* ////////////// 2 */
+  /* @media (max-width: 894px) {
+	#contenedorJuego{
+		display: grid;
+		grid-template-areas: 
+
+		"sec1 sec3"		
+		"sec1 sec3"	
+		"sec7 sec10"
+		"sec5 sec6"
+		"sec9 sec4"
+		"sec2 sec8"
+		"sec2 sec8";;    
+	
+		grid-template-rows: 50px 50px 95px 95px 95px 95px 95px;
+		grid-auto-columns:  50% 50%;     
+		grid-gap: 5px;
+		height: 100vh;   
+		margin: 10px;    
+	}
+
+	
+  } */
+
+
+/*                                       GANADOR */
+
+#contenedorGanador{
+text-align: center;
+margin-top: 90px;
+}
+
+
+
+#ganador{	
+	display: grid;
+	grid-template-areas: 
+	"sec1dos" 
+	"sec1dos" 
+	"sec1dos";   
+
+	grid-template-rows: 105px 150px 100px;
+	grid-auto-columns:  1fr;     
+	grid-gap: 5px;
+	height: 100vh;   
+	margin: 10px;    
+}
+
+
+/* 	grid-template-rows: 105px 150px 105px 80px;
+	grid-auto-columns:  25%  1fr 1fr 1fr;    
+
+*/
+
+
+
+/* #sec1dos{
+background-color: #f000a0;
+grid-area: sec1dos;
+} */
+
+#sec1dos{
+
+grid-area: sec1dos;
+}
+
+/* #sec3dos{
+background-color: #e3e313;
+grid-area: sec3dos;
+} */
+
+/*                           IMG        GANADOR */
+
+
+.configuracionImagenRingGanador{
+	margin-top: 30px;
+	width: 300px;
+	height: 300px;
+}
+
+
+
+
+
+
+
+
+
+/*                           BOTON LIMPIAR */
+
+
+
+.botonLimpiar{
+	
+	background-color: rgb(155, 151, 151);
+	font-family: 'Press Start 2P', cursive;
+    margin: 15px;
+    padding: 5px;
+	font-size: 8px;
+}
+
+
+#botonLimpiarActivo{
+	background-color: rgb(93, 93, 240);
+	font-family: 'Press Start 2P', cursive;
+	margin: 15px;
+	padding: 5px;
+
+
+	font-size: 8px;
+	text-shadow: 0 0 5px rgb(217, 0, 255), 0 0 15px rgb(251, 0, 255), 0 0 30px rgb(205, 50, 179), 0 0 50px rgb(255, 0, 255);
+	/* font-family: 'Dancing Script', cursive;  */
+	color: white;
+
+
+}
+
+/*                           BOTON JUGAR */
+
+
+.botonJugar{
+	background-color: gray;
+	font-family: 'Press Start 2P', cursive;
+	padding: 5px;
+	font-size: 8px;
+	
+}
+
+#botonJugarActivo{
+background-color: rgb(93, 93, 240);
+font-family: 'Press Start 2P', cursive;	
+padding: 5px;
+
+margin: 0;
+font-size: 8px;
+text-shadow: 0 0 5px rgb(217, 0, 255), 0 0 15px rgb(251, 0, 255), 0 0 30px rgb(205, 50, 179), 0 0 50px rgb(255, 0, 255);
+/* font-family: 'Dancing Script', cursive;  */
+color: white; 
+
+}
+
+/* 
+VISTA PUNTAJE */
+.vistaPuntaje{
+font-family: 'Press Start 2P', cursive;
+font-size: 12px;
+line-height: 20px;
+color: #171715;
+}
+
+.puntaje{
+color: black;
+/* background-color: #f000a0; */
+
+}
+
+/* TITULO JUEGO */
+
+.tituloJuego{
+	font-family: 'Press Start 2P', cursive; 
+	padding-top: 15px;
+	color: #e3e313;
+	
+}
+.tipoTexto{
+	font-family: 'Press Start 2P', cursive;
+	font-size: 12px ;
+	padding: 3px;	
+	text-align: center;
+	line-height: 20px ;
+	
+}
+
+/* POSICION IMG COMPUTADORA */
+
+.posicionImgenRing{
+	padding-top: 12px;
+}
+
+/* COLORES MENSAJE  */
+
+.coloresMensaje{
+	color: #1cc20a;
+}
+
+.titulo{
+	font-family: 'Press Start 2P', cursive;
+	padding-top: 15px;
+	color: #e3e313;	
+}
+
+
+#textoIndisponibilidadPPT{
+	display: none;
+}
+
+
+
+
+@media(max-width: 1100px){
+
+	#textoIndisponibilidadPPT{
+		display: block;
+		color: white;
+		text-align: center;
+		font-family: 'Abril Fatface', cursive;
+		padding-top: 100px;
+		padding-bottom: 100px;
+		font-size: 20px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	#contenedorTotalJuego{
+		display: none;
+	}
+
+}
+	

@@ -1,0 +1,489 @@
+#tituloSobreMi{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 60px;
+    text-shadow: 0 0 5px rgb(47, 0, 255), 0 0 15px rgb(63, 60, 236), 0 0 30px rgb(50, 50, 205), 0 0 50px rgb(34, 0, 255);
+    color: white; 
+  }
+  
+
+
+
+/* /////////////// IMG 1 ////////// */
+
+.img1{
+    position: absolute; 
+    background-image: url("../img/imgGusto1.jpg");
+    width: 150px;
+    height: 150px;    
+    background-size: cover;
+    top: 38%;
+    left: 15%;   
+    animation-name: mover1;
+    animation-duration: 5s;    
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    transform: rotate(330deg);
+    opacity: 0.1;
+    border-radius: 10%;
+    z-index:1;
+}
+
+
+@keyframes mover1 {
+0%{
+    transform: translate(-100px,0); 
+}
+}
+
+#textoImagen1{  
+    position: absolute;  
+    font-size: 15px;
+    bottom: 110%;
+}
+
+.img1:hover{
+    opacity: 2;
+    animation-play-state: paused;
+}
+
+/* .img1:active{
+    transform: scale(2);
+    color:#444;
+    -webkit-transform:scale(2);transform:scale(2);
+} */
+
+
+/* /////////////// IMG 2 ////////// */
+
+.img2{
+    position: absolute; 
+    background-image: url("../img/imgGusto2.jpg");
+    width: 150px;
+    height: 150px;    
+    background-size: cover;
+    top: 39%;
+    left: 40%;   
+    animation-name: mover2;
+    animation-duration: 5s;    
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    transform: rotate(330deg);
+    opacity: 0.1;
+    border-radius: 10%;
+    z-index:2;
+}
+
+
+@keyframes mover2 {
+0%{
+    transform: translate(-100px,0); 
+}
+}
+
+#textoImagen2{  
+    position: absolute;  
+    font-size: 15px;
+    bottom: 110%;
+}
+
+.img2:hover{
+    opacity: 2;
+    animation-play-state: paused;
+   
+}
+
+/* .img2:active{
+  
+    color:#444;   
+
+    -webkit-transform:scale(2);transform:scale(2);
+} */
+
+.img2:focus{  
+    transform: rotate(45deg);
+}
+
+
+/* /////////////// IMG 3 ////////// */
+
+.img3{
+    position: absolute; 
+    background-image: url("../img/imgGusto3.jpg");
+    width: 150px;
+    height: 150px;    
+    background-size: cover;
+    top: 50%;
+    left: 65%;   
+    animation-name: mover3;
+    animation-duration: 5s;    
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    transform: rotate(330deg);
+    opacity: 0.1;
+    border-radius: 10%;
+    z-index:3;
+}
+
+
+@keyframes mover3 {
+0%{
+    transform: translate(-100px,0); 
+}
+}
+
+#textoImagen3{  
+    position: absolute;  
+    font-size: 15px;
+    bottom: 110%;
+}
+
+.img3:hover{
+    opacity: 2;
+    animation-play-state: paused;
+   
+}
+
+/* .img3:active{
+    transform: scale(2);
+    color:#444;   
+
+    -webkit-transform:scale(2);transform:scale(2);
+} */
+
+.img3:focus{  
+    transform: rotate(45deg);
+}
+
+/* /////////////// IMG 4 ////////// */
+
+.img4{
+    position: absolute; 
+    background-image: url("../img/imgGusto4.jpg");
+    width: 150px;
+    height: 150px;    
+    background-size: cover;
+    top: 35%;
+    left: 85%;   
+    animation-name: mover4;
+    animation-duration: 5s;    
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    transform: rotate(330deg);
+    opacity: 0.1;
+    border-radius: 10%;
+    z-index:4;
+}
+
+
+@keyframes mover4 {
+0%{
+    transform: translate(-100px,0); 
+}
+}
+
+#textoImagen4{  
+    position: absolute;  
+    font-size: 15px;
+    bottom: 110%;
+}
+
+.img4:hover{
+    opacity: 2;
+    animation-play-state: paused;
+   
+}
+
+/* .img4:active{
+    transform: scale(2);
+    color:#444;   
+
+    -webkit-transform:scale(2);transform:scale(2);
+} */
+
+.img4:focus{  
+    transform: rotate(45deg);
+}
+
+/* /////////////// IMG 5 ////////// */
+
+.img5{
+    position: absolute; 
+    background-image: url("../img/imgGusto5.jpg");
+    width: 150px;
+    height: 150px;    
+    background-size: cover;
+    top: 70%;
+    left: 30%;   
+    animation-name: mover5;
+    animation-duration: 5s;    
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    transform: rotate(330deg);
+    opacity: 0.1;
+    border-radius: 10%;
+    z-index:5;
+}
+
+
+@keyframes mover5 {
+0%{
+    transform: translate(-100px,0); 
+}
+}
+
+#textoImagen5{  
+    position: absolute;  
+    font-size: 15px;
+    bottom: 110%;
+}
+
+.img5:hover{
+    opacity: 2;
+    animation-play-state: paused;
+   
+}
+
+/* .img5:active{
+    transform: scale(2);
+    color:#444;   
+
+    -webkit-transform:scale(2);transform:scale(2);
+} */
+
+.img5:focus{  
+    transform: rotate(45deg);
+}
+/* /////////////// IMG 6 ////////// */
+
+.img6{
+    position: absolute; 
+    background-image: url("../img/imgGusto6.jpg");
+    width: 150px;
+    height: 150px;    
+    background-size: cover;
+    top: 70%;
+    left: 55%;   
+    animation-name: mover6;
+    animation-duration: 5s;    
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    transform: rotate(330deg);
+    opacity: 0.1;
+    border-radius: 10%;
+    z-index:6;
+}
+
+
+@keyframes mover6 {
+0%{
+    transform: translate(-100px,0); 
+}
+}
+
+#textoImagen6{  
+    position: absolute;  
+    font-size: 15px;
+    bottom: 110%;
+}
+
+.img6:hover{
+    opacity: 2;
+    animation-play-state: paused;
+   
+}
+
+/* .img6:active{
+    transform: scale(2);
+    color:#444;   
+
+    -webkit-transform:scale(2);transform:scale(2);
+} */
+
+.img6:focus{  
+    transform: rotate(45deg);
+}
+/* /////////////// IMG 7 ////////// */
+
+.img7{
+    position: absolute; 
+    background-image: url("../img/imgGusto7.jpg");
+    width: 150px;
+    height: 150px;    
+    background-size: cover;
+    top: 70%;
+    left: 80%;   
+    animation-name: mover5;
+    animation-duration: 5s;    
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    transform: rotate(330deg);
+    opacity: 0.1;
+    border-radius: 10%;
+    z-index:7;
+}
+
+
+@keyframes mover7 {
+0%{
+    transform: translate(-100px,0); 
+}
+}
+
+#textoImagen7{  
+    position: absolute;  
+    font-size: 15px;
+    bottom: 110%;
+}
+
+.img7:hover{
+    opacity: 2;
+    animation-play-state: paused;
+   
+}
+
+/* .img7:active{
+    transform: scale(2);
+    color:#444;   
+
+    -webkit-transform:scale(2);transform:scale(2);
+} */
+
+.img7:focus{  
+    transform: rotate(45deg);
+}
+
+
+@media(max-width: 500px){
+        .img1{   
+            width: 100px;
+            height: 100px;   
+            left: 40%; 
+            top: 30%;
+           
+        }
+        .img2{   
+            width: 100px;
+            height: 100px;   
+            left: 80%;
+            top: 23%; 
+           
+        }
+        .img3{   
+            width: 100px;
+            height: 100px; 
+            top: 55%; 
+            left: 30%;
+
+        }
+        .img4{   
+            width: 100px;
+            height: 100px;  
+            top: 47%;
+            left: 70%; 
+        }
+       
+        .img5{   
+            width: 100px;
+            height: 100px; 
+            top: 75%;
+            left: 30%;
+        }
+
+        .img6{   
+            width: 100px;
+            height: 100px;  
+            left: 70%; 
+            top: 70%;
+        }
+        .img7{                 
+            width: 100px;
+            height: 100px;  
+             left: 55%; 
+             top: 85%;
+        }
+       
+
+        #textoImagen1{
+            font-size: 12px;
+        }
+        #textoImagen2{
+            font-size: 12px;
+        }
+        #textoImagen3{
+            font-size: 12px;
+        }
+        #textoImagen4{
+            font-size: 12px;
+        }
+        #textoImagen5{
+            font-size: 12px;
+        }
+        #textoImagen6{
+            font-size: 12px;
+        }
+        #textoImagen7{
+            font-size: 12px;
+        }
+       
+
+        /* .img1:hover{ 
+            width: 150px;
+            height: 150px;    
+        }
+
+        .img2:hover{ 
+            width: 150px;
+            height: 150px;    
+        }
+
+        .img3:hover{ 
+            width: 150px;
+            height: 150px;    
+        }
+
+        .img4:hover{ 
+            width: 150px;
+            height: 150px;    
+        }
+
+        .img5:hover{ 
+            width: 150px;
+            height: 150px;    
+        }
+
+        .img6:hover{ 
+            width: 150px;
+            height: 150px;    
+        }
+        .img7:hover{ 
+            width: 150px;
+            height: 150px;    
+        } */
+     
+
+}
+
+
+
+@media(max-width: 400px){
+    #tituloSobreMi{   
+        font-size: 40px;
+   
+    }
+
+    #contenedorsecundario{			
+        grid-template-rows: auto 890px 840px  800px 800px auto  600px 600px;
+                 }  
+   }
+
+
+   @media(max-width: 300px){
+    #tituloSobreMi{   
+        font-size: 40px;
+   
+    }
+
+   }

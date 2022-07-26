@@ -1,0 +1,6 @@
+.colorNeonSeccionHeader:hover{
+    /* box-shadow: 0 0 10px #1df421, 0 0 40px #e7ef04, 0 0 80px #c9f006; */
+
+       box-shadow: 0 0 15px rgb(45, 186, 1), 0 0 15px rgb(169, 237, 11), 0 0 30px rgb(161, 239, 5), 0 0 50px rgb(167, 236, 6);
+    }
+    

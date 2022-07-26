@@ -1,0 +1,132 @@
+#tituloContactame{
+    padding-top: 30px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 60px;
+    text-shadow: 0 0 5px rgb(47, 0, 255), 0 0 15px rgb(63, 60, 236), 0 0 30px rgb(50, 50, 205), 0 0 50px rgb(34, 0, 255);
+    color: white; 
+}
+
+#contenedorLogosContactame{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 100px;
+}
+
+#linkedin{
+margin-left:20px;
+ font-size: 80px;   
+ transition-duration: 1s; 
+}
+
+#linkedin:hover{
+     
+   color:rgb(34, 0, 255);
+   transition-duration: 1s;
+   transform: rotate(340deg);
+ }
+ 
+#facebook{
+ font-size: 80px;
+ margin-left: 20px;
+ transition-duration: 1s;
+}
+
+#facebook:hover{
+  transition-duration: 1s;
+  transform: rotate(340deg);
+  color:rgb(34, 0, 255)
+}
+
+
+#whatsap{
+  transition-duration: 1s;
+  font-size: 80px;
+  margin-left: 20px;
+}
+
+#whatsap:hover{
+  transition-duration: 1s;
+  transform: rotate(340deg);
+  color:rgb(34, 0, 255)
+}
+
+
+#correo{
+  
+  font-size: 80px;
+  margin-left: 20px;
+  transition-duration: 1s;
+}
+
+#correo:hover{
+  transition-duration: 1s;
+  transform: rotate(340deg);
+  /* box-shadow: 0 0 5px rgb(47, 0, 255), 0 0 15px rgb(63, 60, 236), 0 0 30px rgb(50, 50, 205), 0 0 50px rgb(34, 0, 255); */
+  color:rgb(34, 0, 255)
+}
+
+#contenendorContacto{    
+  padding-top: 80px;
+  text-align: center;
+ 
+}
+.confiLogo{
+  text-decoration:none;
+  color: white;
+  font-family: 'Abril Fatface', cursive;
+  letter-spacing: 1px;
+  font-size: 20px;  
+}
+#contenedorCV{
+  padding-top: 50px;
+  text-align: center;   
+}
+#descargaCV{
+ color: black;
+ text-decoration: none;
+ text-shadow: 0 0 15px red, 0 0 15px red,0 0 15px red, 0 0 15px red;
+ font-family: 'Dancing Script', cursive;     
+ color: white; 
+ font-size: 30px;
+ font-weight: bold;
+}
+
+
+
+
+
+
+@media(max-width: 620px){
+	.confiLogo{		
+       font-size: 15px;
+  }
+ }
+ 
+
+ @media(max-width: 480px){
+	#correo{
+    margin-top: 15px;
+  }
+ }
+
+
+ @media(max-width: 480px){
+	.confiLogo{		
+       font-size: 10px;
+  }
+ }
+
+ @media(max-width: 350px){
+	.confiLogo{		
+       font-size: 8px;
+  }
+ }
+
+ @media(max-width: 300px){
+  #tituloContactame{   
+    font-size: 40px; 
+  }
+ }
+

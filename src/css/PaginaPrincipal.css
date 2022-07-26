@@ -1,0 +1,96 @@
+
+#contenedorsecundario{
+	display: grid;
+	grid-template-areas: 
+
+	"seccion2 seccion2 seccion2"
+	"seccion4 seccion4 seccion4" 
+	"seccion5 seccion5 seccion5" 
+	"seccion6 seccion6 seccion6" 
+	"seccion1 seccion1 seccion1" 
+	"seccion7 seccion7 seccion7" 
+	"seccion3 seccion3 seccion3" 
+	"seccion8 seccion8 seccion8";
+
+	grid-template-rows: auto 600px 600px  600px 600px auto  700px 600px;
+	grid-auto-columns:  1fr;     
+	grid-gap: 10px;
+	height: 100vh;   
+	margin: 10px;  
+	}
+
+#seccion1{
+	background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(63,27,92,0.9504844173997724) 35%, rgba(171,26,223,1) 100%);
+    grid-area: seccion1;
+	
+}
+
+#seccion2{
+	/* background-color: rgb(16, 33, 190); */
+    grid-area: seccion2;
+	 
+}
+
+#seccion3{
+	background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(63,27,92,0.9504844173997724) 35%, rgba(171,26,223,1) 100%);
+    grid-area: seccion3;
+
+}
+
+#seccion4{
+	background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(63,27,92,0.9504844173997724) 35%, rgba(171,26,223,1) 100%);
+    grid-area: seccion4;
+	
+}
+
+#seccion5{
+	background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(63,27,92,0.9504844173997724) 35%, rgba(171,26,223,1) 100%);
+    grid-area: seccion5;
+}
+
+#seccion6{
+	background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(63,27,92,0.9504844173997724) 35%, rgba(171,26,223,1) 100%);
+    grid-area: seccion6;
+}
+
+#seccion7{
+	background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(63,27,92,0.9504844173997724) 35%, rgba(171,26,223,1) 100%);
+    grid-area: seccion7;
+}
+
+#seccion8{
+	background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(63,27,92,0.9504844173997724) 35%, rgba(171,26,223,1) 100%);
+    grid-area: seccion8;
+}
+
+
+@media(max-width: 950px){
+	#contenedorsecundario{			
+grid-template-rows: auto 890px 700px  800px 600px auto  600px 600px;
+	 	}  
+ }
+
+
+ @media(max-width: 652px){
+	#contenedorsecundario{			
+grid-template-rows: auto 890px 750px  800px 600px auto  600px 600px;
+	 	}  
+ }
+
+ 
+ @media(max-width: 450px){
+	#contenedorsecundario{			
+grid-template-rows: auto 890px 840px  800px 600px auto  600px 600px;
+	 	}  
+ }
+
+ /* ////////////////////////////// */
+
+

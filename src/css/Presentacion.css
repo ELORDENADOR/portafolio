@@ -1,0 +1,166 @@
+p{
+    margin: 0px;
+}
+
+#tituloPrsentacion{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 60px;
+    text-shadow: 0 0 5px rgb(47, 0, 255), 0 0 15px rgb(63, 60, 236), 0 0 30px rgb(50, 50, 205), 0 0 50px rgb(34, 0, 255);
+    font-family: 'Dancing Script', cursive; 
+    color: white; 
+}
+
+#contenedorimagenYTextoPresentacion{
+  display: flex;
+  justify-content:center;
+  flex-wrap: wrap; 
+   
+}
+
+#contendorTextoPresentacion{
+    height:300px;
+    width: 500px;
+    margin-right: 40px;
+    padding-left: 30px;
+   
+}
+
+#ContenedorImagenPresentacion{
+    height:350px;
+    width: 350px;
+    padding: 5px;    
+}
+
+
+#textoPresetacion{
+    font-family: 'Abril Fatface', cursive;
+    /* word-spacing: 0.5em; */
+    font-size: 20px;
+    text-align:justify; 
+    color:white;
+    margin-top: 60px;
+  }
+
+#imagenPresentacion{ 
+    background-image: url("../img/presentacionImg2.png");   
+    height: 350px;
+    width:  250px;   
+    background-size: cover;  
+    /* opacity: 0.3; */
+    border-radius: 5%;
+}
+
+/* #imagenPresentacion:hover{    
+    opacity: 0.6;
+} */
+
+@media(max-width: 768px){
+    #tituloPrsentacion{
+        padding: 0px;
+        margin-top:20px;      
+        margin-bottom:40px;      
+     
+    }
+
+   
+
+
+ }
+
+ @media(max-width: 555px){ 
+
+    #ContenedorImagenPresentacion{
+        padding-top: 50px;
+    }
+
+    #textoPresetacion{   
+        margin-top: 20px;       
+      } 
+
+
+ }
+
+ @media(max-width: 500px){   
+ #contendorTextoPresentacion{   
+        height:300px;      
+        padding-left: 60px; 
+        /* margin-right: 80px;        
+        /* background-color: red; */
+    }
+
+    #ContenedorImagenPresentacion{
+    padding-left: 50px;
+    }
+
+     #imagenPresentacion{ 
+        /* background-image: url("../img/yo.jpg");    */
+        height: 350px;
+        width:  290px;             
+    }
+  
+   }
+
+   @media(max-width: 472px){
+    #ContenedorImagenPresentacion{
+        padding-top: 100px;
+        padding-left: 50px;
+     }
+
+    #contendorTextoPresentacion{   
+        height:300px;
+        width: 350px;
+        /* margin-right: 80px;
+        padding-left: 80px; */
+      
+    }
+    #textoPresetacion{      
+        height:330px;
+        width: 360px;        
+        margin-left: -20px;
+      } 
+
+      #imagenPresentacion{ 
+        /* background-image: url("../img/yo.jpg");    */
+        height: 330px;
+        width:  250px;  
+        margin-left: 10px;           
+    }
+
+   }
+
+
+
+   @media(max-width: 386px){
+    /* #imagenPresentacion{      
+        margin-left: -10px;  
+        height: 300px;
+        width:  220px;              
+    } */
+
+    #textoPresetacion{      
+        height:390px;
+        width: 360px;
+     
+        margin-left: -20px;
+      } 
+
+
+   }
+
+
+ @media(max-width: 368px){
+    #textoPresetacion{      
+        
+        width: 320px;  
+        margin-left: -30px;
+
+      } 
+
+
+    
+
+
+   }
