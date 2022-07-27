@@ -1,25 +1,25 @@
 .titulo-calculadora {
-    padding-top: 40px;
-    padding-bottom: 20px;
-    text-align: center;
-    /* background-color: rgba(128, 128, 128, 0.123);   */
-    color: rgb(214, 234, 234);
-    font-family:Verdana, Geneva, Tahoma, sans-serif
-  }
-  
-  .html,body{
-   background-color: black;
-  }
-  
-  
-  .contenedor{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom:  25px;
-  }
-  
-  .calcular{
+  padding-top: 40px;
+  padding-bottom: 20px;
+  text-align: center;
+  /* background-color: rgba(128, 128, 128, 0.123);   */
+  color: rgb(214, 234, 234);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.html,
+body {
+  background-color: black;
+}
+
+.contenedor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.calcular {
   width: 330px;
   height: 450px;
   background-color: blue;
@@ -28,315 +28,298 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  
-  }
-  
-  
-  .botones{
+}
+
+.botones {
   margin-left: 10px;
   width: 50px;
-  
-  }
-  
-  .mensaje{
-    color:  red;
-  }
-  
-  
-  .contenedor{
-      display: grid;
-      grid-template-areas: 
+}
+
+.mensaje {
+  color: red;
+}
+
+.contenedor {
+  display: grid;
+  grid-template-areas:
     "pantalla  pantalla         pantalla"
-      "siete      ocho            nueve"   
-      "cuatro     cinco           seis" 
-      "uno        dos             tres" 
-      "sumar      cero            restar" 
-      "dividir   multiplicar      resultado" 
-      "limpiar   borrar           borrar";
-      
-    grid-template-rows: minmax(auto 100px 100px  100px  100px  100px 100px);
-    grid-auto-columns:  80px 80px 80px;     
-  
-  
-      grid-gap: 5px;
-  
-  }
-                                              /* PANTALLA */
-  .pantalla{
-    grid-area: pantalla;
-  
-    background-color: rgb(9, 63, 33);  
-    min-height: 50px;
-    text-align: center;
-    border-radius: 1rem;
-    padding: 2rem;
-    word-wrap: break-word;  
-    margin-bottom: 10px;
-    color: aqua;
-    border: 3px solid rgb(235, 240, 241);
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.2rem;
-  }
-  
-  /*                                   NUMEROS                            */
-  
-  .cero{  
-    grid-area: cero;
-    border-radius: 5px solid rgb(3, 253, 3); 
-    height: 50px;
-    border-radius: 10px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    color: aqua;
-    background-color: rgb(9, 63, 33)  
-  }
-  .cero:hover{
-    background-color: rgb(69, 176, 208);
-  }
-  
-  .uno{   
-    grid-area: uno;
-    border-radius: 5px solid rgb(3, 253, 3); 
-    height: 50px;
-    border-radius: 10px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    color: aqua;
-    background-color: rgb(9, 63, 33);
-  }
-  .uno:hover{
-      background-color: rgb(69, 176, 208);
-   }
-  
-  .dos{    
-    grid-area: dos;
-    border-radius: 5px solid rgb(3, 253, 3); 
-    height: 50px;
-    border-radius: 10px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    color: aqua;
-    background-color: rgb(9, 63, 33)
-    }
-    .dos:hover{
-    background-color: rgb(69, 176, 208);
-  }
-  
-  .tres{
-    grid-area: tres;
-    border-radius: 5px solid rgb(3, 253, 3); 
-    height: 50px;
-    border-radius: 10px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    color: aqua;
-    background-color: rgb(9, 63, 33)
-  }
-  .tres:hover{
-    background-color: rgb(69, 176, 208);
-  }
-  
-  .cuatro{ 
-    grid-area: cuatro;
-    border-radius: 5px solid rgb(3, 253, 3); 
-    height: 50px;
-    border-radius: 10px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    color: aqua;
-    background-color: rgb(9, 63, 33)
-    }
-    .cuatro:hover{
-      background-color: rgb(69, 176, 208);
-    }
-  
-  
-  .cinco{
-    grid-area: cinco;
-    border-radius: 5px solid rgb(3, 253, 3); 
-    height: 50px;
-    border-radius: 10px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    color: aqua;
-    background-color: rgb(9, 63, 33)
-  }
-    .cinco:hover{
-      background-color: rgb(69, 176, 208);
-    }
-  
-  
-  
-  .seis{ 
-    grid-area: seis;
-    border-radius: 5px solid rgb(3, 253, 3); 
-    height: 50px;
-    border-radius: 10px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    color: aqua;
-    background-color: rgb(9, 63, 33)
-    }
-    .seis:hover{
-      background-color: rgb(69, 176, 208);
-    }
-  
-  
-  
-  .siete{  
-    grid-area: siete;
-    border-radius: 5px solid rgb(3, 253, 3); 
-    height: 50px;
-    border-radius: 10px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    color: aqua;
-    background-color: rgb(9, 63, 33)
-    }
-    .siete:hover{
-      background-color: rgb(69, 176, 208);
-    }
-  
-  
-  .ocho{   
-    grid-area: ocho;
-    border-radius: 5px solid rgb(3, 253, 3); 
-    height: 50px;
-    border-radius: 10px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    color: aqua;
-    background-color: rgb(9, 63, 33)
-  }
-  .ocho:hover{
-    background-color: rgb(69, 176, 208);
-  }
-  
-  .nueve{
-    grid-area: nueve;
-    border-radius: 5px solid rgb(3, 253, 3); 
-    height: 50px;
-    border-radius: 10px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    color: aqua;
-    background-color: rgb(9, 63, 33)
-  }
-  .nueve:hover{
-    background-color: rgb(69, 176, 208);
-  }
-  
-  /*                                             OPERACIONES          */
-  
-  .limpiar{
-    background-color: rgb(214, 231, 63); 
-    grid-area: limpiar;
-    border-radius: 5px solid rgb(3, 253, 3); 
-    height: 50px;
-    border-radius: 10px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 10px;
-    font-weight: bold;
-  }
-  .limpiar:hover{
-    background-color: rgb(69, 176, 208);
-  }
-  
-  .sumar{
-    background-color: rgb(63, 119, 231); 
-    grid-area: sumar;
-    border-radius: 5px solid rgb(3, 253, 3); 
-    height: 50px;
-    border-radius: 10px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    }
-  .sumar:hover{
-      background-color: rgb(69, 176, 208);
-  }
-      
-  .restar{
-    background-color: rgb(63, 119, 231); 
-    grid-area: restar;
-    border-radius: 5px solid rgb(3, 253, 3); 
-    height: 50px;
-    border-radius: 10px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-  }
-   .restar:hover{
-      background-color: rgb(69, 176, 208);
-  }
-  
-  .dividir{
-    background-color: rgb(63, 119, 231); 
-    grid-area: dividir;
-    border-radius: 5px solid rgb(3, 253, 3); 
-    height: 50px;
-    border-radius: 10px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-  }
-  .dividir:hover{
-      background-color: rgb(69, 176, 208);
-  }
-  
-  
-  .multiplicar{
-    background-color: rgb(63, 119, 231); 
-    grid-area: multiplicar;
-    border-radius: 5px solid rgb(3, 253, 3); 
-    height: 50px;
-    border-radius: 10px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    }
-  .multiplicar:hover{
-    background-color: rgb(69, 176, 208);
-  }
-  
-                
-  .resultado{
-    background-color: rgb(231, 63, 209); 
-    grid-area: resultado;
-    border-radius: 5px solid rgb(3, 253, 3); 
-    height: 50px;
-    border-radius: 10px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    }
-  .resultado:hover{
-    background-color: rgb(69, 176, 208);
-  }
-  
-  .borrar{
-    background-color: rgb(227, 149, 216);
-    grid-area: borrar;
-    border-radius: 5px solid rgb(3, 253, 3); 
-    height: 50px;
-    border-radius: 10px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    }
-    .borrar:hover{
-      background-color: rgb(69, 176, 208);
-    }
-  
-  .sigresul{
-    color: red;
-  }
-  
-  
-  .resul{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    color: rgb(229, 241, 6);
-  }
+    "siete      ocho            nueve"
+    "cuatro     cinco           seis"
+    "uno        dos             tres"
+    "sumar      cero            restar"
+    "dividir   multiplicar      resultado"
+    "limpiar   borrar           borrar";
 
+  grid-template-rows: minmax(auto 100px 100px 100px 100px 100px 100px);
+  grid-auto-columns: 80px 80px 80px;
 
-  @media(max-width: 300px){  
-    .contenedor{
-      display: none;
-    }
+  grid-gap: 5px;
+}
+/* PANTALLA */
+.pantalla {
+  grid-area: pantalla;
 
- }
+  background-color: rgb(9, 63, 33);
+  min-height: 50px;
+  text-align: center;
+  border-radius: 1rem;
+  padding: 2rem;
+  word-wrap: break-word;
+  margin-bottom: 10px;
+  color: aqua;
+  border: 3px solid rgb(235, 240, 241);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.2rem;
+}
+
+/*                                   NUMEROS                            */
+
+.cero {
+  grid-area: cero;
+  border-radius: 5px solid rgb(3, 253, 3);
+  height: 50px;
+  border-radius: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: aqua;
+  background-color: rgb(9, 63, 33);
+}
+.cero:hover {
+  background-color: rgb(69, 176, 208);
+}
+
+.uno {
+  grid-area: uno;
+  border-radius: 5px solid rgb(3, 253, 3);
+  height: 50px;
+  border-radius: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: aqua;
+  background-color: rgb(9, 63, 33);
+}
+.uno:hover {
+  background-color: rgb(69, 176, 208);
+}
+
+.dos {
+  grid-area: dos;
+  border-radius: 5px solid rgb(3, 253, 3);
+  height: 50px;
+  border-radius: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: aqua;
+  background-color: rgb(9, 63, 33);
+}
+.dos:hover {
+  background-color: rgb(69, 176, 208);
+}
+
+.tres {
+  grid-area: tres;
+  border-radius: 5px solid rgb(3, 253, 3);
+  height: 50px;
+  border-radius: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: aqua;
+  background-color: rgb(9, 63, 33);
+}
+.tres:hover {
+  background-color: rgb(69, 176, 208);
+}
+
+.cuatro {
+  grid-area: cuatro;
+  border-radius: 5px solid rgb(3, 253, 3);
+  height: 50px;
+  border-radius: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: aqua;
+  background-color: rgb(9, 63, 33);
+}
+.cuatro:hover {
+  background-color: rgb(69, 176, 208);
+}
+
+.cinco {
+  grid-area: cinco;
+  border-radius: 5px solid rgb(3, 253, 3);
+  height: 50px;
+  border-radius: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: aqua;
+  background-color: rgb(9, 63, 33);
+}
+.cinco:hover {
+  background-color: rgb(69, 176, 208);
+}
+
+.seis {
+  grid-area: seis;
+  border-radius: 5px solid rgb(3, 253, 3);
+  height: 50px;
+  border-radius: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: aqua;
+  background-color: rgb(9, 63, 33);
+}
+.seis:hover {
+  background-color: rgb(69, 176, 208);
+}
+
+.siete {
+  grid-area: siete;
+  border-radius: 5px solid rgb(3, 253, 3);
+  height: 50px;
+  border-radius: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: aqua;
+  background-color: rgb(9, 63, 33);
+}
+.siete:hover {
+  background-color: rgb(69, 176, 208);
+}
+
+.ocho {
+  grid-area: ocho;
+  border-radius: 5px solid rgb(3, 253, 3);
+  height: 50px;
+  border-radius: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: aqua;
+  background-color: rgb(9, 63, 33);
+}
+.ocho:hover {
+  background-color: rgb(69, 176, 208);
+}
+
+.nueve {
+  grid-area: nueve;
+  border-radius: 5px solid rgb(3, 253, 3);
+  height: 50px;
+  border-radius: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: aqua;
+  background-color: rgb(9, 63, 33);
+}
+.nueve:hover {
+  background-color: rgb(69, 176, 208);
+}
+
+/*                                             OPERACIONES          */
+
+.limpiar {
+  background-color: rgb(214, 231, 63);
+  grid-area: limpiar;
+  border-radius: 5px solid rgb(3, 253, 3);
+  height: 50px;
+  border-radius: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+}
+.limpiar:hover {
+  background-color: rgb(69, 176, 208);
+}
+
+.sumar {
+  background-color: rgb(63, 119, 231);
+  grid-area: sumar;
+  border-radius: 5px solid rgb(3, 253, 3);
+  height: 50px;
+  border-radius: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+.sumar:hover {
+  background-color: rgb(69, 176, 208);
+}
+
+.restar {
+  background-color: rgb(63, 119, 231);
+  grid-area: restar;
+  border-radius: 5px solid rgb(3, 253, 3);
+  height: 50px;
+  border-radius: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+.restar:hover {
+  background-color: rgb(69, 176, 208);
+}
+
+.dividir {
+  background-color: rgb(63, 119, 231);
+  grid-area: dividir;
+  border-radius: 5px solid rgb(3, 253, 3);
+  height: 50px;
+  border-radius: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+.dividir:hover {
+  background-color: rgb(69, 176, 208);
+}
+
+.multiplicar {
+  background-color: rgb(63, 119, 231);
+  grid-area: multiplicar;
+  border-radius: 5px solid rgb(3, 253, 3);
+  height: 50px;
+  border-radius: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+.multiplicar:hover {
+  background-color: rgb(69, 176, 208);
+}
+
+.resultado {
+  background-color: rgb(231, 63, 209);
+  grid-area: resultado;
+  border-radius: 5px solid rgb(3, 253, 3);
+  height: 50px;
+  border-radius: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+.resultado:hover {
+  background-color: rgb(69, 176, 208);
+}
+
+.borrar {
+  background-color: rgb(227, 149, 216);
+  grid-area: borrar;
+  border-radius: 5px solid rgb(3, 253, 3);
+  height: 50px;
+  border-radius: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+.borrar:hover {
+  background-color: rgb(69, 176, 208);
+}
+
+.sigresul {
+  color: red;
+}
+
+.resul {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: rgb(229, 241, 6);
+}
+
+@media (max-width: 300px) {
+  .contenedor {
+    display: none;
+  }
+}

@@ -1,79 +1,74 @@
-#contenedorHeader{  
-    display: flex;
-    justify-content: center;
-    padding: 30px;
-}      
-
-#contenedorTitulo{  
-    margin-top: 60px;  
-    border: 5px solid white;
-    background-color: #444;
-    box-shadow: inset 0 0 15px rgb(255, 0, 230), 0 0 15px rgb(255, 0, 230);
-    text-align: center;   
-    border-radius: 60px;
-    height: 360px;
-    width: 460px;
-
-    background-image: url("../img/imagenFondoVieja.png");
-  
-    background-size: cover; 
-
+#contenedorHeader {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
 }
 
-.texto{
-    margin: 0;
-    font-size: 65px;
-    text-shadow: 0 0 15px red, 0 0 15px red,0 0 15px red, 0 0 15px red;
-    font-family: 'Dancing Script', cursive;     
-    color: white; 
-} 
+#contenedorTitulo {
+  margin-top: 60px;
+  border: 5px solid white;
+  background-color: #444;
+  box-shadow: inset 0 0 15px rgb(255, 0, 230), 0 0 15px rgb(255, 0, 230);
+  text-align: center;
+  border-radius: 60px;
+  height: 360px;
+  width: 460px;
 
-#nombre{
-    margin-top: 20px;
+  background-image: url("../img/imagenFondoVieja.png");
+
+  background-size: cover;
 }
 
-
-
-#textoSeparado{
- 
-    text-shadow: 0 0 15px rgb(38, 0, 255), 0 0 15px rgb(8, 0, 255), 0 0 15px rgb(4, 0, 255), 0 0 15px rgb(34, 0, 255);
-    font-family: 'Dancing Script', cursive;     
-    color: white; 
-    font-weight: bold;
-    font-size: 50px;
-    word-spacing: -0.2em;
-} 
-
-
-.casiDañada{     
-    color: white;
-    animation: parpadear 2s infinite backwards;
-    font-size: 50px;
-    text-shadow: 0 0 15px rgb(38, 0, 255), 0 0 15px rgb(8, 0, 255), 0 0 15px rgb(4, 0, 255), 0 0 15px rgb(34, 0, 255);
-    font-family: 'Dancing Script', cursive;      
-    font-weight: bold;
+.texto {
+  margin: 0;
+  font-size: 65px;
+  text-shadow: 0 0 15px red, 0 0 15px red, 0 0 15px red, 0 0 15px red;
+  font-family: "Dancing Script", cursive;
+  color: white;
 }
 
-.dañado{
-    font-family: 'Dancing Script', cursive;     
-    font-size: 50px;
-    font-weight: bold;
+#nombre {
+  margin-top: 20px;
 }
 
+#textoSeparado {
+  text-shadow: 0 0 15px rgb(38, 0, 255), 0 0 15px rgb(8, 0, 255),
+    0 0 15px rgb(4, 0, 255), 0 0 15px rgb(34, 0, 255);
+  font-family: "Dancing Script", cursive;
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+  word-spacing: -0.2em;
+}
 
+.casiDañada {
+  color: white;
+  animation: parpadear 2s infinite backwards;
+  font-size: 50px;
+  text-shadow: 0 0 15px rgb(38, 0, 255), 0 0 15px rgb(8, 0, 255),
+    0 0 15px rgb(4, 0, 255), 0 0 15px rgb(34, 0, 255);
+  font-family: "Dancing Script", cursive;
+  font-weight: bold;
+}
 
-#textoDañado{     
-    font-family: 'Dancing Script', cursive;     
-    color: black; 
-    font-size: 50px;
-    font-family: 'Dancing Script', cursive;  
-    font-weight: bold; 
-} 
+.dañado {
+  font-family: "Dancing Script", cursive;
+  font-size: 50px;
+  font-weight: bold;
+}
 
-.encender2:hover{  
-    color: white;
-    text-shadow: 0 0 15px rgb(13, 0, 255), 0 0 15px rgb(21, 0, 255), 0 0 15px rgb(38, 0, 255), 0 0 15px rgb(38, 0, 255);
-   
+#textoDañado {
+  font-family: "Dancing Script", cursive;
+  color: black;
+  font-size: 50px;
+  font-family: "Dancing Script", cursive;
+  font-weight: bold;
+}
+
+.encender2:hover {
+  color: white;
+  text-shadow: 0 0 15px rgb(13, 0, 255), 0 0 15px rgb(21, 0, 255),
+    0 0 15px rgb(38, 0, 255), 0 0 15px rgb(38, 0, 255);
 }
 
 /* #corona{
@@ -85,92 +80,65 @@
     color: rgb(243, 209, 16);
 } */
 
-
-
 @keyframes parpadear {
-    to{
-        color: black;
-        text-shadow: none;
-    }
+  to {
+    color: black;
+    text-shadow: none;
+  }
 }
-
 
 /* ///////////////////IMAGEN DE FONDO////////////// */
 
-#contenedorHeader{
-    background-image: url("../img/muro4.png");
-   
-    height: 510px;
-    /* filter: grayscale(90%); */
-    background-size: cover;  
-     
+#contenedorHeader {
+  background-image: url("../img/muro4.png");
+
+  height: 510px;
+  /* filter: grayscale(90%); */
+  background-size: cover;
 }
 
-
-@media(max-width: 500px){  
-    /* #contenedorTitulo{       
+@media (max-width: 500px) {
+  /* #contenedorTitulo{       
         display:none;        
     } */
 
-    .texto{      
-        font-size: 45px;       
-    } 
+  .texto {
+    font-size: 45px;
+  }
 
-    #contenedorTitulo{        
-        height: 290px;     
-    }
+  #contenedorTitulo {
+    height: 290px;
+  }
 
-    
-/* #contenedorHeader{
+  /* #contenedorHeader{
     background-image: url("../img/fondoPequeño.png");
   
     background-size: cover;
 } */
+}
 
+@media (max-width: 400px) {
+  #contenedorHeader {
+    background-image: url("../img/muro4.png");
 
- }
+    height: 670px;
 
+    background-size: cover;
+  }
 
+  #contenedorTitulo {
+    margin-top: 160px;
+  }
+}
 
- 
-@media(max-width: 400px){  
-
-    /* #contenedorTitulo{
-    margin-bottom:60px;
-         
-    } */
-
-
-    #contenedorHeader{
-        background-image: url("../img/muro4.png");
-   
-        height: 670px;
-        /* filter: grayscale(90%); */
-        background-size: cover; 
-         
-    }
-
-
-    #contenedorTitulo{  
-       margin-top: 160px;
-    
-    }
-
- }
-
-
-
-
- @media(max-width: 368px){  
-
-    #nombre{
-        font-size: 40px;
-    }
-    #apellido{
-        font-size: 40px;
-    }
-    #textoSeparado{
-        font-size: 40px;
-    }
-
- }
+@media (max-width: 368px) {
+  #nombre {
+    font-size: 40px;
+  }
+  #apellido {
+    font-size: 40px;
+  }
+  #textoSeparado {
+    font-size: 40px;
+  }
+}

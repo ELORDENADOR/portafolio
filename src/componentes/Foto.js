@@ -5,13 +5,13 @@
 // export const Foto = () => {
 //   return (
 //     <div id="contenedorImg">
-    
-//         {/* <img 
+
+//         {/* <img
 //             id="img"
 //             src={foto}
 //             alt="foto"
 //             /> */}
-       
+
 //     </div>
 //   )
 // }

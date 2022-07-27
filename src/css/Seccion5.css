@@ -1,4 +1,11 @@
-.colorNeonSeccion5{
+.colorNeonSeccion5:hover {
+  /* box-shadow: 0 0 10px #1df421, 0 0 40px #e7ef04, 0 0 80px #c9f006; */
+
+  box-shadow: 0 0 15px rgb(186, 1, 170), 0 0 15px rgb(237, 11, 211),
+    0 0 30px rgb(239, 5, 219), 0 0 50px rgb(236, 6, 224);
+}
+
+/* .colorNeonSeccion5{
     position: relative;
     display: inline-block;
     padding: 15px 30px;
@@ -70,4 +77,4 @@
     bottom: 100%;
     transition: 1s;
     transition-delay: 0.75s;
-}
+} */

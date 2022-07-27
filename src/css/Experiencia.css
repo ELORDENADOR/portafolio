@@ -1,298 +1,266 @@
-#tituloExperiencia{
-    padding-top: 30px;
-    padding-bottom: 60px;
-    text-align: center;
+#tituloExperiencia {
+  padding-top: 30px;
+  padding-bottom: 60px;
+  text-align: center;
 
-    font-family: 'Dancing Script', cursive;
-    font-size: 60px;
-    text-shadow: 0 0 5px rgb(47, 0, 255), 0 0 15px rgb(63, 60, 236), 0 0 30px rgb(50, 50, 205), 0 0 50px rgb(34, 0, 255);
-    /* font-family: 'Dancing Script', cursive;  */
-    color: white; 
-
+  font-family: "Dancing Script", cursive;
+  font-size: 60px;
+  text-shadow: 0 0 5px rgb(47, 0, 255), 0 0 15px rgb(63, 60, 236),
+    0 0 30px rgb(50, 50, 205), 0 0 50px rgb(34, 0, 255);
+  /* font-family: 'Dancing Script', cursive;  */
+  color: white;
 }
 
-
-#contenedorExperiencias{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+#contenedorExperiencias {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 /* ///////////////FONRECAR//////// */
 
-#tituloFonrecar{     
-       
-    padding-left: 10px;      
-    font-size: 25px;
-    text-shadow: 0 0 15px rgb(247, 245, 245), 0 0 15px rgb(246, 244, 244),0 0 15px rgb(244, 244, 244), 0 0 15px rgb(248, 246, 246);
-    color: white;
-    font-weight: bold;
-   
+#tituloFonrecar {
+  padding-left: 10px;
+  font-size: 25px;
+  text-shadow: 0 0 15px rgb(247, 245, 245), 0 0 15px rgb(246, 244, 244),
+    0 0 15px rgb(244, 244, 244), 0 0 15px rgb(248, 246, 246);
+  color: white;
+  font-weight: bold;
 }
 
-#fonrecar{     
-    margin-top: 20px;
-    margin-left: 50px;    
-    margin-bottom: 40px;   
-    transition-duration:3s;
-    width: 150px;
-    height: 30px;      
-    padding: 10px;
-    color: #fff;   
-    font-size: 0px; 
-    border-radius: 5px;
-    background: #a945c7;
-    box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+#fonrecar {
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-bottom: 40px;
+  transition-duration: 3s;
+  width: 150px;
+  height: 30px;
+  padding: 10px;
+  color: #fff;
+  font-size: 0px;
+  border-radius: 5px;
+  background: #a945c7;
+  box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
 }
 
-
-
-#fonrecar:hover{    
-    text-align:justify;
-    font-size: 12px;
-    height: 180px;    
-    transition-duration: 2s;   
-    background: #45c752;
-    box-shadow: 0 0 10px #45c752, 0 0 40px #45c752, 0 0 80px #45c752;
-
+#fonrecar:hover {
+  text-align: justify;
+  font-size: 12px;
+  height: 180px;
+  transition-duration: 2s;
+  background: #45c752;
+  box-shadow: 0 0 10px #45c752, 0 0 40px #45c752, 0 0 80px #45c752;
 }
 
-
-
-.configuracionFonrecar{
-    text-align:center;
-    margin-top: 10px;
-    font-family: 'Exo 2', sans-serif; 
-    color: black;
-    text-decoration: none;
-    opacity: 0.3; 
+.configuracionFonrecar {
+  text-align: center;
+  margin-top: 10px;
+  font-family: "Exo 2", sans-serif;
+  color: black;
+  text-decoration: none;
+  opacity: 0.3;
 }
 
-
-
-#linkFonrecar{  
-    transition-duration: 1s;
-    text-decoration: none;
-    color: black;
-    opacity: 0.5;    
+#linkFonrecar {
+  transition-duration: 1s;
+  text-decoration: none;
+  color: black;
+  opacity: 0.5;
 }
 
-#linkFonrecar:hover{  
-    transition-duration: 3s;
-    font-size: 30px;
-    color: white;  
-    opacity: 5;   
- }
+#linkFonrecar:hover {
+  transition-duration: 3s;
+  font-size: 30px;
+  color: white;
+  opacity: 5;
+}
 
 /* ///////////////COMFENALCO//////// */
 
-#tituloComfenalco{     
-    padding-left: 2px;      
-    font-size: 22px;
-    text-shadow: 0 0 15px rgb(247, 245, 245), 0 0 15px rgb(246, 244, 244),0 0 15px rgb(244, 244, 244), 0 0 15px rgb(248, 246, 246);
-    color: white;
-    font-weight: bold;    
+#tituloComfenalco {
+  padding-left: 2px;
+  font-size: 22px;
+  text-shadow: 0 0 15px rgb(247, 245, 245), 0 0 15px rgb(246, 244, 244),
+    0 0 15px rgb(244, 244, 244), 0 0 15px rgb(248, 246, 246);
+  color: white;
+  font-weight: bold;
 }
 
-#comfenalco{    
-    margin-top: 20px;
-    margin-left: 50px;
-    transition-duration:3s;
-    margin-bottom: 40px; 
-    width: 150px;
-    height: 30px;      
-    padding: 10px;
-    color: #fff;   
-    font-size: 0px; 
-    border-radius: 5px;
-    background: #f60303;
-    box-shadow: 0 0 10px #f60303, 0 0 40px #f60303, 0 0 80px #f60303;
-
+#comfenalco {
+  margin-top: 20px;
+  margin-left: 50px;
+  transition-duration: 3s;
+  margin-bottom: 40px;
+  width: 150px;
+  height: 30px;
+  padding: 10px;
+  color: #fff;
+  font-size: 0px;
+  border-radius: 5px;
+  background: #f60303;
+  box-shadow: 0 0 10px #f60303, 0 0 40px #f60303, 0 0 80px #f60303;
 }
 
-
-
-#comfenalco:hover{    
-    text-align:justify;
-    font-size: 12px;
-    height: 200px;    
-    transition-duration: 2s;   
-    background: #6259df8c;
-    box-shadow: 0 0 10px #6259df8c, 0 0 40px #6259df8c, 0 0 80px #6259df8c;
- 
+#comfenalco:hover {
+  text-align: justify;
+  font-size: 12px;
+  height: 200px;
+  transition-duration: 2s;
+  background: #6259df8c;
+  box-shadow: 0 0 10px #6259df8c, 0 0 40px #6259df8c, 0 0 80px #6259df8c;
 }
 
-
-
-.configuracionComfenalco{
-    text-align:center;
-    margin-top: 10px;
-    font-family: 'Exo 2', sans-serif; 
-    color: black;
-    text-decoration: none;   
-    opacity: 0.3; 
+.configuracionComfenalco {
+  text-align: center;
+  margin-top: 10px;
+  font-family: "Exo 2", sans-serif;
+  color: black;
+  text-decoration: none;
+  opacity: 0.3;
 }
 
-#linkComfenalco{  
-    transition-duration: 1s;
-    text-decoration: none;
-    color: black;
-    opacity: 0.5;   
+#linkComfenalco {
+  transition-duration: 1s;
+  text-decoration: none;
+  color: black;
+  opacity: 0.5;
 }
 
-
-#linkComfenalco:hover{  
-   transition-duration: 3s;
-   font-size: 30px;
-    color: white;  
-    opacity: 5;   
+#linkComfenalco:hover {
+  transition-duration: 3s;
+  font-size: 30px;
+  color: white;
+  opacity: 5;
 }
-
 
 /* ///////////////STEFANINI//////// */
 
-#tituloStefanini{     
-    padding-left: 10px;      
-    font-size: 25px;
-    text-shadow: 0 0 15px rgb(247, 245, 245), 0 0 15px rgb(246, 244, 244),0 0 15px rgb(244, 244, 244), 0 0 15px rgb(248, 246, 246);
-    color: white;
-    font-weight: bold;
+#tituloStefanini {
+  padding-left: 10px;
+  font-size: 25px;
+  text-shadow: 0 0 15px rgb(247, 245, 245), 0 0 15px rgb(246, 244, 244),
+    0 0 15px rgb(244, 244, 244), 0 0 15px rgb(248, 246, 246);
+  color: white;
+  font-weight: bold;
 }
 
-#stefanini{   
-    margin-top: 20px;     
-    margin-left: 50px;
-    margin-bottom: 40px; 
-    transition-duration:3s;
-    width: 150px;
-    height: 30px;      
-    padding: 10px;
-    color: #fff;   
-    font-size: 0px; 
-    border-radius: 5px;
-    background: #3cf603;
-    box-shadow: 0 0 10px #3cf603, 0 0 40px #3cf603, 0 0 80px #3cf603;
-
+#stefanini {
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-bottom: 40px;
+  transition-duration: 3s;
+  width: 150px;
+  height: 30px;
+  padding: 10px;
+  color: #fff;
+  font-size: 0px;
+  border-radius: 5px;
+  background: #3cf603;
+  box-shadow: 0 0 10px #3cf603, 0 0 40px #3cf603, 0 0 80px #3cf603;
 }
 
-
-
-#stefanini:hover{    
-    text-align:justify;
-    font-size: 12px;
-    height: 250px;  
-    transition-duration: 2s;   
-    background: #dbe24a8c;
-    box-shadow: 0 0 10px #dbe24a8c, 0 0 40px #dbe24a8c, 0 0 80px #dbe24a8c;
- 
+#stefanini:hover {
+  text-align: justify;
+  font-size: 12px;
+  height: 250px;
+  transition-duration: 2s;
+  background: #dbe24a8c;
+  box-shadow: 0 0 10px #dbe24a8c, 0 0 40px #dbe24a8c, 0 0 80px #dbe24a8c;
 }
 
-
-
-.configuracionStefanini{
-    text-align:center;
-    margin-top: 10px;
-    font-family: 'Exo 2', sans-serif; 
-    color: black;
-    text-decoration: none;   
-    opacity: 0.3; 
+.configuracionStefanini {
+  text-align: center;
+  margin-top: 10px;
+  font-family: "Exo 2", sans-serif;
+  color: black;
+  text-decoration: none;
+  opacity: 0.3;
 }
 
-#linkStefanini{  
-    transition-duration: 1s;
-    text-decoration: none;
-    color: black;
-    opacity: 0.5;   
+#linkStefanini {
+  transition-duration: 1s;
+  text-decoration: none;
+  color: black;
+  opacity: 0.5;
 }
 
-
-#linkStefanini:hover{  
-    transition-duration: 3s;
-    font-size: 30px;
-     color: white;  
-     opacity: 5;   
- }
-
+#linkStefanini:hover {
+  transition-duration: 3s;
+  font-size: 30px;
+  color: white;
+  opacity: 5;
+}
 
 /* ///////////////FREELANCE//////// */
 
-#tituloFreelance{        
-    padding-left: 10px;      
-    font-size: 25px;
-    text-shadow: 0 0 15px rgb(247, 245, 245), 0 0 15px rgb(246, 244, 244),0 0 15px rgb(244, 244, 244), 0 0 15px rgb(248, 246, 246);
-    color: white;
-    font-weight: bold;
+#tituloFreelance {
+  padding-left: 10px;
+  font-size: 25px;
+  text-shadow: 0 0 15px rgb(247, 245, 245), 0 0 15px rgb(246, 244, 244),
+    0 0 15px rgb(244, 244, 244), 0 0 15px rgb(248, 246, 246);
+  color: white;
+  font-weight: bold;
 }
 
-#freelance{     
-    margin-top: 20px;   
-    margin-left: 50px;
-    transition-duration:3s;
-    width: 150px;
-    height: 30px;      
-    padding: 10px;
-    color: #fff;   
-    font-size: 0px; 
-    border-radius: 5px;
-    background: #2105f2f3;
-    box-shadow: 0 0 10px #2105f2f3, 0 0 40px #2105f2f3, 0 0 80px #2105f2f3;
- 
+#freelance {
+  margin-top: 20px;
+  margin-left: 50px;
+  transition-duration: 3s;
+  width: 150px;
+  height: 30px;
+  padding: 10px;
+  color: #fff;
+  font-size: 0px;
+  border-radius: 5px;
+  background: #2105f2f3;
+  box-shadow: 0 0 10px #2105f2f3, 0 0 40px #2105f2f3, 0 0 80px #2105f2f3;
 }
 
-
-
-#freelance:hover{    
-    text-align:justify;
-    font-size: 12px;
-    height: 210px;    
-    transition-duration: 3s;   
-    background: #e47fe485;
-    box-shadow: 0 0 10px #e47fe485, 0 0 40px #e47fe485, 0 0 80px #e47fe485;
- 
+#freelance:hover {
+  text-align: justify;
+  font-size: 12px;
+  height: 210px;
+  transition-duration: 3s;
+  background: #e47fe485;
+  box-shadow: 0 0 10px #e47fe485, 0 0 40px #e47fe485, 0 0 80px #e47fe485;
 }
 
-
-
-.configuracionFreelance{
-    text-align:center;
-    margin-top: 10px;
-    font-family: 'Exo 2', sans-serif; 
-    color: black;
-    text-decoration: none;   
-    opacity: 0.3; 
+.configuracionFreelance {
+  text-align: center;
+  margin-top: 10px;
+  font-family: "Exo 2", sans-serif;
+  color: black;
+  text-decoration: none;
+  opacity: 0.3;
 }
 
-#linkFreelance{  
-    transition-duration: 1s;
-    text-decoration: none;
-    color: black;
-    opacity: 0.5;   
+#linkFreelance {
+  transition-duration: 1s;
+  text-decoration: none;
+  color: black;
+  opacity: 0.5;
 }
 
-#linkFreelance:hover{  
-    transition-duration: 2s;
-    font-size: 30px;
-     color: white;  
-     opacity: 5;   
- }
-
-
- .links{  
-    /* transition-duration: 1s; */
-    text-decoration: none;
-    color: black;
-    opacity: 0.6;   
+#linkFreelance:hover {
+  transition-duration: 2s;
+  font-size: 30px;
+  color: white;
+  opacity: 5;
 }
 
-
-
-.colorAparte{
-    color: red;    
+.links {
+  /* transition-duration: 1s; */
+  text-decoration: none;
+  color: black;
+  opacity: 0.6;
 }
 
-@media(max-width: 459px){
-    #fonrecar{     
-        margin-top: 0px;       
-  
-    }
- }
+.colorAparte {
+  color: red;
+}
+
+@media (max-width: 459px) {
+  #fonrecar {
+    margin-top: 0px;
+  }
+}

@@ -4,7 +4,7 @@ import PaginaPrincipal from './componentes/PaginaPrincipal';
 function App() {
   return (
     <div>
-           <PaginaPrincipal />
+           <PaginaPrincipal/>
     </div>
   );
 }
